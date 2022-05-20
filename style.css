@@ -181,3 +181,43 @@ main {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+@media only screen and (max-width: 600px){
+  main {
+  background:#65dfc9 ;
+  }
+
+  .glass {
+    display: grid;
+    width: auto;
+  }
+
+  .status input {
+    width: 70%;
+    margin: 0 15%;
+  }
+
+  .status h1 {
+    text-align: center;
+  }
+
+  .pro {
+    margin-bottom: 2rem;
+  }
+  
+  .games {
+    margin: auto;
+  }
+
+  .card {
+    margin: 2rem 1rem;
+  }
+
+  .dashboard {
+  border-radius: 0px;
+  }
+
+  .user {
+    margin-top: 2rem;
+  }
+}
